@@ -1,3 +1,11 @@
+/**
+ * Interface implemented by objects returned by ADTs that implement
+ * MyIterable.
+ * 
+ * @author William
+ * @author Dickinson College
+ * @version Feb 8, 2024
+ */
 public interface MyIterator<E> {
     /**
      * Check if there is at least one more element that can be retrieved by a 
