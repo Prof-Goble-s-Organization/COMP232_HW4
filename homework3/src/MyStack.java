@@ -9,10 +9,10 @@ public interface MyStack<E> {
     /**
      * Add the provided element to the top of the stack.
      * 
-     * @param Object
+     * @param obj
      *          the element to push onto the stack.
      */
-    public void push(E Object);
+    public void push(E obj);
     
     /**
      * Remove the element from the top of the stack and return it.
